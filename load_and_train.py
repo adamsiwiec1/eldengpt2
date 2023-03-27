@@ -13,7 +13,7 @@ def load_dataset(file_path, tokenizer, block_size=128):
 
 def train_dataset(train_file):
     # Configurations
-    model_name = "gpt2-large"
+    model_name = "gpt2"
     tokenizer = GPT2Tokenizer.from_pretrained(model_name)
     config = GPT2Config.from_pretrained(model_name)
 
