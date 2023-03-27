@@ -1,0 +1,42 @@
+ERROR:root:An error occurred: 'charmap' codec can't decode byte 0x81 in position 3282: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\everything\source\llm\elden-ring-llm\elden_llm.py", line 10, in <module>
+    for row in reader:
+  File "C:\Users\adam\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 3282: character maps to <undefined>
+ERROR:root:An error occurred: 'charmap' codec can't encode character '\u2800' in position 0: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\everything\source\llm\elden-ring-llm\elden_llm.py", line 12, in <module>
+    writer.writerow(row[2])
+  File "C:\Users\adam\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2800' in position 0: character maps to <undefined>
+ERROR:root:An error occurred: 'charmap' codec can't encode character '\u2800' in position 0: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\everything\source\llm\elden-ring-llm\elden_llm.py", line 12, in <module>
+    writer.writerow(row[2])
+  File "C:\Users\adam\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2800' in position 0: character maps to <undefined>
+ERROR:root:An error occurred: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\everything\source\llm\elden-ring-llm\elden_llm.py\", line 11, in <module>
+    dst_file.write(row[2])
+  File "C:\Users\adam\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>
+ERROR:root:An error occurred: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\everything\source\llm\elden-ring-llm\elden_llm.py\", line 11, in <module>
+    dst_file.write(row[2])
+  File "C:\Users\adam\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>
+ERROR:root:An error occurred: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\everything\source\llm\elden-ring-llm\elden_llm.py\", line 11, in <module>
+    dst_file.write(row[2])
+  File "C:\Users\adam\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-2: character maps to <undefined>
